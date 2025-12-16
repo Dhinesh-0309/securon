@@ -1,0 +1,77 @@
+[
+  {
+    "timestamp": "2024-12-16T14:20:00Z",
+    "raw_data": {
+      "type": "https",
+      "time": "2024-12-16T14:20:00.000Z",
+      "elb": "app/my-loadbalancer/50dc6c495c0c9188",
+      "client_ip": "192.0.2.76",
+      "client_port": "23456",
+      "target_ip": "10.0.0.1",
+      "target_port": "80",
+      "request_processing_time": "0.000",
+      "target_processing_time": "0.002",
+      "response_processing_time": "0.000",
+      "elb_status_code": "200",
+      "target_status_code": "200",
+      "received_bytes": "0",
+      "sent_bytes": "29",
+      "request": "GET https://example.com:443/admin/config HTTP/1.1",
+      "user_agent": "Mozilla/5.0 (compatible; Baiduspider/2.0)",
+      "ssl_cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+      "ssl_protocol": "TLSv1.2",
+      "target_group_arn": "arn:aws:elasticloadbalancing:us-east-1:123456789012:targetgroup/my-targets/73e2d6bc24d8a067",
+      "trace_id": "Root=1-58337262-36d228ad5d99923122bbe354"
+    }
+  },
+  {
+    "timestamp": "2024-12-16T14:20:05Z",
+    "raw_data": {
+      "type": "https",
+      "time": "2024-12-16T14:20:05.000Z",
+      "elb": "app/my-loadbalancer/50dc6c495c0c9188",
+      "client_ip": "192.0.2.76",
+      "client_port": "23457",
+      "target_ip": "10.0.0.1",
+      "target_port": "80",
+      "request_processing_time": "0.000",
+      "target_processing_time": "0.001",
+      "response_processing_time": "0.000",
+      "elb_status_code": "404",
+      "target_status_code": "404",
+      "received_bytes": "0",
+      "sent_bytes": "345",
+      "request": "GET https://example.com:443/.env HTTP/1.1",
+      "user_agent": "Mozilla/5.0 (compatible; Baiduspider/2.0)",
+      "ssl_cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+      "ssl_protocol": "TLSv1.2",
+      "target_group_arn": "arn:aws:elasticloadbalancing:us-east-1:123456789012:targetgroup/my-targets/73e2d6bc24d8a067",
+      "trace_id": "Root=1-58337263-36d228ad5d99923122bbe355"
+    }
+  },
+  {
+    "timestamp": "2024-12-16T14:20:10Z",
+    "raw_data": {
+      "type": "https",
+      "time": "2024-12-16T14:20:10.000Z",
+      "elb": "app/my-loadbalancer/50dc6c495c0c9188",
+      "client_ip": "192.0.2.76",
+      "client_port": "23458",
+      "target_ip": "10.0.0.1",
+      "target_port": "80",
+      "request_processing_time": "0.000",
+      "target_processing_time": "0.003",
+      "response_processing_time": "0.000",
+      "elb_status_code": "404",
+      "target_status_code": "404",
+      "received_bytes": "0",
+      "sent_bytes": "345",
+      "request": "GET https://example.com:443/wp-admin/ HTTP/1.1",
+      "user_agent": "Mozilla/5.0 (compatible; Baiduspider/2.0)",
+      "ssl_cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+      "ssl_protocol": "TLSv1.2",
+      "target_group_arn": "arn:aws:elasticloadbalancing:us-east-1:123456789012:targetgroup/my-targets/73e2d6bc24d8a067",
+      "trace_id": "Root=1-58337264-36d228ad5d99923122bbe356"
+    }
+  }
+]

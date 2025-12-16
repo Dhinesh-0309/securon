@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": "2024-12-16T09:30:00Z",
+    "raw_data": {
+      "eventTime": "2024-12-16T09:30:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "sourceIPAddress": "198.51.100.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "errorCode": "SigninFailure",
+      "errorMessage": "Failed authentication",
+      "userName": "admin",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    }
+  },
+  {
+    "timestamp": "2024-12-16T09:30:30Z",
+    "raw_data": {
+      "eventTime": "2024-12-16T09:30:30Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "sourceIPAddress": "198.51.100.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "errorCode": "SigninFailure",
+      "errorMessage": "Failed authentication",
+      "userName": "administrator",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    }
+  },
+  {
+    "timestamp": "2024-12-16T09:31:00Z",
+    "raw_data": {
+      "eventTime": "2024-12-16T09:31:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "sourceIPAddress": "198.51.100.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "errorCode": "SigninFailure",
+      "errorMessage": "Failed authentication",
+      "userName": "root",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    }
+  },
+  {
+    "timestamp": "2024-12-16T09:31:30Z",
+    "raw_data": {
+      "eventTime": "2024-12-16T09:31:30Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "sourceIPAddress": "198.51.100.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "errorCode": "SigninFailure",
+      "errorMessage": "Failed authentication",
+      "userName": "user",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    }
+  },
+  {
+    "timestamp": "2024-12-16T09:32:00Z",
+    "raw_data": {
+      "eventTime": "2024-12-16T09:32:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "sourceIPAddress": "198.51.100.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "errorCode": "SigninFailure",
+      "errorMessage": "Failed authentication",
+      "userName": "test",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    }
+  }
+]

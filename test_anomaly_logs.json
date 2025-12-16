@@ -1,0 +1,67 @@
+[
+  {
+    "timestamp": "2023-12-16T10:00:00Z",
+    "raw_data": {
+      "srcaddr": "192.168.1.100",
+      "dstaddr": "10.0.1.50",
+      "srcport": "22",
+      "dstport": "22",
+      "protocol": "6",
+      "action": "ACCEPT",
+      "windowstart": "1672531200",
+      "windowend": "1672531260"
+    }
+  },
+  {
+    "timestamp": "2023-12-16T10:01:00Z",
+    "raw_data": {
+      "srcaddr": "192.168.1.100",
+      "dstaddr": "10.0.1.51",
+      "srcport": "22",
+      "dstport": "23",
+      "protocol": "6",
+      "action": "ACCEPT",
+      "windowstart": "1672531260",
+      "windowend": "1672531320"
+    }
+  },
+  {
+    "timestamp": "2023-12-16T10:02:00Z",
+    "raw_data": {
+      "srcaddr": "192.168.1.100",
+      "dstaddr": "10.0.1.52",
+      "srcport": "22",
+      "dstport": "80",
+      "protocol": "6",
+      "action": "ACCEPT",
+      "windowstart": "1672531320",
+      "windowend": "1672531380"
+    }
+  },
+  {
+    "timestamp": "2023-12-16T10:03:00Z",
+    "raw_data": {
+      "srcaddr": "192.168.1.100",
+      "dstaddr": "10.0.1.53",
+      "srcport": "22",
+      "dstport": "443",
+      "protocol": "6",
+      "action": "ACCEPT",
+      "windowstart": "1672531380",
+      "windowend": "1672531440"
+    }
+  },
+  {
+    "timestamp": "2023-12-16T10:04:00Z",
+    "raw_data": {
+      "srcaddr": "192.168.1.100",
+      "dstaddr": "10.0.1.54",
+      "srcport": "22",
+      "dstport": "3389",
+      "protocol": "6",
+      "action": "ACCEPT",
+      "windowstart": "1672531440",
+      "windowend": "1672531500"
+    }
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "timestamp": "2025-12-14T17:42:45.556824Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-14T17:42:45.556824Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-661162862853",
+      "eventID": "87654321-4321-4321-4321-535437524630",
+      "eventType": "AwsConsoleSignIn"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:44:45.556824Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-14T17:44:45.556824Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-768506947247",
+      "eventID": "87654321-4321-4321-4321-796006343148",
+      "eventType": "AwsConsoleSignIn"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:46:45.556824Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-14T17:46:45.556824Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-940449772405",
+      "eventID": "87654321-4321-4321-4321-588085202461",
+      "eventType": "AwsConsoleSignIn"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:48:45.556824Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-14T17:48:45.556824Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-779249712581",
+      "eventID": "87654321-4321-4321-4321-494514706356",
+      "eventType": "AwsConsoleSignIn"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:50:45.556824Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-14T17:50:45.556824Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-716742879028",
+      "eventID": "87654321-4321-4321-4321-318978261072",
+      "eventType": "AwsConsoleSignIn"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:52:45.556824Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-14T17:52:45.556824Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "198.51.100.25",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-331859031853",
+      "eventID": "87654321-4321-4321-4321-304192590609",
+      "eventType": "AwsConsoleSignIn"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:54:45.556824Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-14T17:54:45.556824Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-310880515008",
+      "eventID": "87654321-4321-4321-4321-824294960250",
+      "eventType": "AwsConsoleSignIn"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:56:45.556824Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-14T17:56:45.556824Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-849081069672",
+      "eventID": "87654321-4321-4321-4321-102386417072",
+      "eventType": "AwsConsoleSignIn"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:02:45.556824Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-14T18:02:45.556824Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-155998484513",
+      "eventID": "87654321-4321-4321-4321-403574308186",
+      "eventType": "AwsConsoleSignIn"
+    }
+  }
+]

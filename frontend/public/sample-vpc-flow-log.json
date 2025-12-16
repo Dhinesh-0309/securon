@@ -1,0 +1,13 @@
+{
+  "timestamp": "2023-01-01T00:00:00Z",
+  "raw_data": {
+    "srcaddr": "192.168.1.100",
+    "dstaddr": "10.0.1.50",
+    "srcport": "443",
+    "dstport": "80",
+    "protocol": "6",
+    "action": "ACCEPT",
+    "windowstart": "1672531200",
+    "windowend": "1672531260"
+  }
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "timestamp": "2024-12-16T10:00:00Z",
+    "raw_data": {
+      "srcaddr": "203.0.113.45",
+      "dstaddr": "10.0.1.100",
+      "srcport": "54321",
+      "dstport": "22",
+      "protocol": "6",
+      "action": "ACCEPT",
+      "windowstart": "1734343200",
+      "windowend": "1734343260",
+      "packets": "15",
+      "bytes": "1200"
+    }
+  },
+  {
+    "timestamp": "2024-12-16T10:01:00Z",
+    "raw_data": {
+      "srcaddr": "203.0.113.45",
+      "dstaddr": "10.0.1.101",
+      "srcport": "54322",
+      "dstport": "22",
+      "protocol": "6",
+      "action": "ACCEPT",
+      "windowstart": "1734343260",
+      "windowend": "1734343320",
+      "packets": "12",
+      "bytes": "960"
+    }
+  },
+  {
+    "timestamp": "2024-12-16T10:02:00Z",
+    "raw_data": {
+      "srcaddr": "203.0.113.45",
+      "dstaddr": "10.0.1.102",
+      "srcport": "54323",
+      "dstport": "22",
+      "protocol": "6",
+      "action": "ACCEPT",
+      "windowstart": "1734343320",
+      "windowend": "1734343380",
+      "packets": "18",
+      "bytes": "1440"
+    }
+  },
+  {
+    "timestamp": "2024-12-16T10:03:00Z",
+    "raw_data": {
+      "srcaddr": "203.0.113.45",
+      "dstaddr": "10.0.1.103",
+      "srcport": "54324",
+      "dstport": "3389",
+      "protocol": "6",
+      "action": "REJECT",
+      "windowstart": "1734343380",
+      "windowend": "1734343440",
+      "packets": "5",
+      "bytes": "400"
+    }
+  },
+  {
+    "timestamp": "2024-12-16T10:04:00Z",
+    "raw_data": {
+      "srcaddr": "203.0.113.45",
+      "dstaddr": "10.0.1.104",
+      "srcport": "54325",
+      "dstport": "445",
+      "protocol": "6",
+      "action": "REJECT",
+      "windowstart": "1734343440",
+      "windowend": "1734343500",
+      "packets": "8",
+      "bytes": "640"
+    }
+  }
+]

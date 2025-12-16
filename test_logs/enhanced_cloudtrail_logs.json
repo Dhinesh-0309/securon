@@ -1,0 +1,232 @@
+[
+  {
+    "timestamp": "2025-12-14T17:42:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/developer",
+        "accountId": "123456789012",
+        "userName": "developer"
+      },
+      "eventTime": "2025-12-14T17:42:45.556776Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "10.0.1.100",
+      "userAgent": "aws-cli/2.0.0",
+      "requestID": "12345678-1234-1234-1234-618812203450",
+      "eventID": "87654321-4321-4321-4321-740367125937",
+      "eventType": "AwsApiCall"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:47:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/developer",
+        "accountId": "123456789012",
+        "userName": "developer"
+      },
+      "eventTime": "2025-12-14T17:47:45.556776Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "10.0.1.100",
+      "userAgent": "aws-cli/2.0.0",
+      "requestID": "12345678-1234-1234-1234-446669740795",
+      "eventID": "87654321-4321-4321-4321-917636996454",
+      "eventType": "AwsApiCall"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:52:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/developer",
+        "accountId": "123456789012",
+        "userName": "developer"
+      },
+      "eventTime": "2025-12-14T17:52:45.556776Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "ListBuckets",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "10.0.1.100",
+      "userAgent": "aws-cli/2.0.0",
+      "requestID": "12345678-1234-1234-1234-830746384672",
+      "eventID": "87654321-4321-4321-4321-966899843651",
+      "eventType": "AwsApiCall"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:02:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/admin",
+        "accountId": "123456789012",
+        "userName": "admin"
+      },
+      "eventTime": "2025-12-14T18:02:45.556776Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "TerminateInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "requestID": "12345678-1234-1234-1234-671224201284",
+      "eventID": "87654321-4321-4321-4321-863963160186",
+      "eventType": "AwsApiCall"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:04:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012",
+        "userName": "admin"
+      },
+      "eventTime": "2025-12-14T18:04:45.556776Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "DeleteBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.100",
+      "userAgent": "Mozilla/5.0",
+      "requestID": "12345678-1234-1234-1234-221205891411",
+      "eventID": "87654321-4321-4321-4321-549491314889",
+      "eventType": "AwsApiCall"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:06:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012",
+        "userName": "root"
+      },
+      "eventTime": "2025-12-14T18:06:45.556776Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "AttachUserPolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.100",
+      "userAgent": "Mozilla/5.0",
+      "requestID": "12345678-1234-1234-1234-382021907146",
+      "eventID": "87654321-4321-4321-4321-465288918145",
+      "eventType": "AwsApiCall"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:08:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012",
+        "userName": "root"
+      },
+      "eventTime": "2025-12-14T18:08:45.556776Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutBucketPolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.100",
+      "userAgent": "aws-cli/2.0.0",
+      "requestID": "12345678-1234-1234-1234-227445819322",
+      "eventID": "87654321-4321-4321-4321-308369462787",
+      "eventType": "AwsApiCall"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:10:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/admin",
+        "accountId": "123456789012",
+        "userName": "admin"
+      },
+      "eventTime": "2025-12-14T18:10:45.556776Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutBucketPolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "aws-cli/2.0.0",
+      "requestID": "12345678-1234-1234-1234-469446010722",
+      "eventID": "87654321-4321-4321-4321-733133500880",
+      "eventType": "AwsApiCall"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:12:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/admin",
+        "accountId": "123456789012",
+        "userName": "root"
+      },
+      "eventTime": "2025-12-14T18:12:45.556776Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "DeleteBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.100",
+      "userAgent": "Mozilla/5.0",
+      "requestID": "12345678-1234-1234-1234-486165843626",
+      "eventID": "87654321-4321-4321-4321-473736709576",
+      "eventType": "AwsApiCall"
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:14:45.556776Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/admin",
+        "accountId": "123456789012",
+        "userName": "admin"
+      },
+      "eventTime": "2025-12-14T18:14:45.556776Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "TerminateInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "198.51.100.25",
+      "userAgent": "aws-cli/2.0.0",
+      "requestID": "12345678-1234-1234-1234-245193155700",
+      "eventID": "87654321-4321-4321-4321-376283952833",
+      "eventType": "AwsApiCall"
+    }
+  }
+]

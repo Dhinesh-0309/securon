@@ -1,0 +1,101 @@
+{
+  "test-rule-699bdfa5": {
+    "id": "test-rule-699bdfa5",
+    "name": "Test S3 Bucket Security Rule",
+    "description": "Test rule to ensure S3 buckets have proper encryption",
+    "severity": "HIGH",
+    "pattern": "resource\\s+\"aws_s3_bucket\"\\s+\"[^\"]+\"\\s*\\{[^}]*\\}",
+    "remediation": "Enable S3 bucket encryption by adding server_side_encryption_configuration block",
+    "source": "ML_GENERATED",
+    "status": "ACTIVE",
+    "created_at": "2025-12-14T21:29:04.063331"
+  },
+  "api-test-rule-9e33b1aa": {
+    "id": "api-test-rule-9e33b1aa",
+    "name": "API Test S3 Encryption Rule",
+    "description": "Test rule for API workflow - ensures S3 buckets have encryption",
+    "severity": "HIGH",
+    "pattern": "resource\\s+\"aws_s3_bucket\"\\s+\"[^\"]+\"\\s*\\{[^}]*\\}",
+    "remediation": "Add server_side_encryption_configuration block to S3 bucket",
+    "source": "ML_GENERATED",
+    "status": "ACTIVE",
+    "created_at": "2025-12-14T21:29:45.944317"
+  },
+  "test-candidate-5683c427": {
+    "id": "test-candidate-5683c427",
+    "name": "S3 Bucket Encryption Required",
+    "description": "Ensures all S3 buckets have server-side encryption enabled",
+    "severity": "HIGH",
+    "pattern": "resource\\s+\"aws_s3_bucket\"\\s+\"[^\"]+\"\\s*\\{[^}]*\\}",
+    "remediation": "Add server_side_encryption_configuration block with AES256 or aws:kms encryption",
+    "source": "ML_GENERATED",
+    "status": "ACTIVE",
+    "created_at": "2025-12-14T21:31:06.614044"
+  },
+  "test-candidate-e31e1ed5": {
+    "id": "test-candidate-e31e1ed5",
+    "name": "Security Group SSH Access Restriction",
+    "description": "Prevents security groups from allowing SSH access from 0.0.0.0/0",
+    "severity": "CRITICAL",
+    "pattern": "resource\\s+\"aws_security_group\"\\s+\"[^\"]+\"\\s*\\{[^}]*ingress[^}]*from_port\\s*=\\s*22[^}]*cidr_blocks\\s*=\\s*\\[\"0\\.0\\.0\\.0/0\"\\]",
+    "remediation": "Restrict SSH access to specific IP ranges instead of 0.0.0.0/0",
+    "source": "ML_GENERATED",
+    "status": "ACTIVE",
+    "created_at": "2025-12-14T21:31:06.614701"
+  },
+  "test-candidate-404f513a": {
+    "id": "test-candidate-404f513a",
+    "name": "RDS Instance Backup Retention",
+    "description": "Ensures RDS instances have adequate backup retention period",
+    "severity": "MEDIUM",
+    "pattern": "resource\\s+\"aws_db_instance\"\\s+\"[^\"]+\"\\s*\\{[^}]*\\}",
+    "remediation": "Set backup_retention_period to at least 7 days",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-14T21:31:06.615236"
+  },
+  "test-candidate-68bc6eff": {
+    "id": "test-candidate-68bc6eff",
+    "name": "IAM Policy Wildcard Prevention",
+    "description": "Prevents IAM policies from using wildcard (*) permissions",
+    "severity": "HIGH",
+    "pattern": "resource\\s+\"aws_iam_policy\"\\s+\"[^\"]+\"\\s*\\{[^}]*policy[^}]*\"Action\":\\s*\"\\*\"",
+    "remediation": "Replace wildcard permissions with specific actions",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-14T21:31:06.616179"
+  },
+  "test-candidate-577d14c7": {
+    "id": "test-candidate-577d14c7",
+    "name": "CloudTrail Logging Enabled",
+    "description": "Ensures CloudTrail logging is enabled for audit purposes",
+    "severity": "MEDIUM",
+    "pattern": "resource\\s+\"aws_cloudtrail\"\\s+\"[^\"]+\"\\s*\\{[^}]*\\}",
+    "remediation": "Enable CloudTrail with proper S3 bucket configuration",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-14T21:31:06.617262"
+  },
+  "86a4d525-b319-4c37-9f0f-3132e80b81fb": {
+    "id": "86a4d525-b319-4c37-9f0f-3132e80b81fb",
+    "name": "ML-Generated Suspicious IP Detection",
+    "description": "Detect suspicious IP activity based on ML analysis",
+    "severity": "LOW",
+    "pattern": "ip_behavior_anomaly",
+    "remediation": "Review IP access patterns and implement IP allowlisting",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-16T09:12:59.727568"
+  },
+  "56dba3fc-fe12-4943-9c3e-a5070b40fd9a": {
+    "id": "56dba3fc-fe12-4943-9c3e-a5070b40fd9a",
+    "name": "ML-Generated Suspicious IP Detection",
+    "description": "Detect suspicious IP activity based on ML analysis",
+    "severity": "LOW",
+    "pattern": "ip_behavior_anomaly",
+    "remediation": "Review IP access patterns and implement IP allowlisting",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-16T09:16:11.858851"
+  }
+}

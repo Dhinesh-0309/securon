@@ -1,0 +1,2082 @@
+{
+  "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T13:07:39.207339",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 2,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T15:22:40.047663",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 3,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T15:22:41.965442",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 4,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T15:22:42.740880",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 5,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T15:45:10.401526",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 6,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T16:13:31.592466",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 7,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T18:33:06.734401",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 8,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T19:20:24.309117",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 9,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T21:16:20.976199",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 10,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T21:16:21.821113",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 11,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T21:16:22.147688",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 12,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T21:16:23.236870",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 13,
+      "rule": {
+        "id": "fd01ff80-ecee-4db1-92ba-e1f8678ce5a0",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:37:50.117476"
+      },
+      "modified_at": "2025-12-14T21:16:24.770353",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "75e86e72-5665-4403-ab61-1a463de292dd": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "75e86e72-5665-4403-ab61-1a463de292dd",
+        "name": "ML-Generated Suspicious IP Detection",
+        "description": "Detect suspicious IP activity based on ML analysis",
+        "severity": "LOW",
+        "pattern": "ip_behavior_anomaly",
+        "remediation": "Review IP access patterns and implement IP allowlisting",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:37:50.117505"
+      },
+      "modified_at": "2025-12-14T15:22:21.009074",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "73aefbb9-eaf4-45a8-839a-6d90627107fb": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "73aefbb9-eaf4-45a8-839a-6d90627107fb",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:39:20.917393"
+      },
+      "modified_at": "2025-12-14T15:22:21.174855",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "51c9d2ec-c59b-4405-9ab4-126c79f40fb3": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "51c9d2ec-c59b-4405-9ab4-126c79f40fb3",
+        "name": "ML-Generated Suspicious IP Detection",
+        "description": "Detect suspicious IP activity based on ML analysis",
+        "severity": "LOW",
+        "pattern": "ip_behavior_anomaly",
+        "remediation": "Review IP access patterns and implement IP allowlisting",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T12:39:20.917411"
+      },
+      "modified_at": "2025-12-14T15:22:21.323910",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "8217b532-ab20-49a4-a9ab-c6f7726b1c47": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "8217b532-ab20-49a4-a9ab-c6f7726b1c47",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T13:12:09.238144"
+      },
+      "modified_at": "2025-12-14T15:22:21.491854",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "ee3e3447-79c2-437a-a089-5fdcfe9f66c7": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "ee3e3447-79c2-437a-a089-5fdcfe9f66c7",
+        "name": "ML-Generated Suspicious IP Detection",
+        "description": "Detect suspicious IP activity based on ML analysis",
+        "severity": "LOW",
+        "pattern": "ip_behavior_anomaly",
+        "remediation": "Review IP access patterns and implement IP allowlisting",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T13:12:09.238164"
+      },
+      "modified_at": "2025-12-14T15:22:21.674215",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "bf686215-737e-490f-a06a-153eef7c8078": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "bf686215-737e-490f-a06a-153eef7c8078",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T15:18:01.886318"
+      },
+      "modified_at": "2025-12-14T15:22:21.824753",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "df8ead73-c34d-459e-8b1f-3f161096ac49": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "df8ead73-c34d-459e-8b1f-3f161096ac49",
+        "name": "ML-Generated Suspicious IP Detection",
+        "description": "Detect suspicious IP activity based on ML analysis",
+        "severity": "LOW",
+        "pattern": "ip_behavior_anomaly",
+        "remediation": "Review IP access patterns and implement IP allowlisting",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T15:18:01.886414"
+      },
+      "modified_at": "2025-12-14T15:22:21.992063",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "3c523f1e-406e-4790-b4b1-92cfdf65c881": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "3c523f1e-406e-4790-b4b1-92cfdf65c881",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T15:21:29.575010"
+      },
+      "modified_at": "2025-12-14T15:22:22.156926",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "5ce88dce-5b37-48ed-959c-56f403fbfbea": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "5ce88dce-5b37-48ed-959c-56f403fbfbea",
+        "name": "ML-Generated Suspicious IP Detection",
+        "description": "Detect suspicious IP activity based on ML analysis",
+        "severity": "LOW",
+        "pattern": "ip_behavior_anomaly",
+        "remediation": "Review IP access patterns and implement IP allowlisting",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T15:21:29.575028"
+      },
+      "modified_at": "2025-12-14T15:22:22.312860",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T15:22:40.051567",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 2,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T15:22:41.961533",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 3,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T15:22:42.746269",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 4,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T15:45:10.396663",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 5,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T16:13:31.595637",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 6,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T18:33:06.731713",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 7,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T19:20:24.318352",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 8,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:20.959251",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 9,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:21.836221",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 10,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:22.136286",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 11,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:23.252361",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 12,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:27.443602",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 13,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:27.972047",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 14,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:28.135287",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 15,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:28.759847",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 16,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:28.936437",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 17,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:29.150027",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 18,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:16:33.671635",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 19,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:43:33.460360",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 20,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:43:37.548513",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 21,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:10.101005",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 22,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:12.564970",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 23,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:14.430428",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 24,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:16.849695",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 25,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:27.816194",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 26,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:29.997946",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 27,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:45.036162",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 28,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:45.513633",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 29,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:45.710780",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 30,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:45.860773",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 31,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:46.122253",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 32,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:46.346026",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 33,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:46.543103",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 34,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:46.777628",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 35,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:47.009485",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 36,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:47.162349",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 37,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:47.374293",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 38,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:47.544112",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 39,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:47.725366",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 40,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:47.978473",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 41,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:48.176776",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 42,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:44:48.377794",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 43,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:53:00.116773",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 44,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-14T21:54:46.321141",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 45,
+      "rule": {
+        "id": "cc19c0c2-2f64-45e6-a565-4c29cbf4e8cd",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T15:22:26.434759"
+      },
+      "modified_at": "2025-12-16T11:24:05.534859",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "b25fab31-8e4c-4663-bb01-619f87cf2404": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "b25fab31-8e4c-4663-bb01-619f87cf2404",
+        "name": "ML-Generated Suspicious IP Detection",
+        "description": "Detect suspicious IP activity based on ML analysis",
+        "severity": "LOW",
+        "pattern": "ip_behavior_anomaly",
+        "remediation": "Review IP access patterns and implement IP allowlisting",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T15:22:26.434778"
+      },
+      "modified_at": "2025-12-14T16:14:02.221593",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "2a31bcfe-dc1f-4903-bb57-3872a63c81a2": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "2a31bcfe-dc1f-4903-bb57-3872a63c81a2",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T15:23:02.862243"
+      },
+      "modified_at": "2025-12-14T18:33:06.738586",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "7bf0a7d2-a3a9-4ecf-b2f8-ed4728079d93": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "7bf0a7d2-a3a9-4ecf-b2f8-ed4728079d93",
+        "name": "ML-Generated Suspicious IP Detection",
+        "description": "Detect suspicious IP activity based on ML analysis",
+        "severity": "LOW",
+        "pattern": "ip_behavior_anomaly",
+        "remediation": "Review IP access patterns and implement IP allowlisting",
+        "source": "ML_GENERATED",
+        "status": "REJECTED",
+        "created_at": "2025-12-14T15:23:02.862269"
+      },
+      "modified_at": "2025-12-14T21:16:25.854695",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "c3009e29-6a56-4828-8442-3c460eee539a": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:16:27.459159",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 2,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:16:27.956662",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 3,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:16:28.146694",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 4,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:16:28.751861",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 5,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:16:28.952105",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 6,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:16:29.135200",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 7,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:16:33.688410",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 8,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:43:33.442541",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 9,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:43:37.566317",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 10,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:03.198768",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 11,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:03.767307",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 12,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:10.082423",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 13,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:12.582720",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 14,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:14.415371",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 15,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:23.865501",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 16,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:27.798128",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 17,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:30.017033",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 18,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:45.018122",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 19,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:45.531753",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 20,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:45.694129",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 21,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:45.872640",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 22,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:46.111613",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 23,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:46.358894",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 24,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:46.527657",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 25,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:46.792298",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 26,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:46.994509",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 27,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:47.180338",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 28,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:47.361006",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 29,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:47.561764",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 30,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:47.710924",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 31,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:47.997122",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 32,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:48.162185",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 33,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:44:48.394065",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 34,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:53:00.093702",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 35,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:54:46.333234",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 36,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:54:50.368323",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 37,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:54:58.075290",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 38,
+      "rule": {
+        "id": "c3009e29-6a56-4828-8442-3c460eee539a",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:39:20.651620"
+      },
+      "modified_at": "2025-12-14T21:54:59.617012",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "e6a6512c-33a1-42e4-b0c0-cdee3e9a8bf8": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "e6a6512c-33a1-42e4-b0c0-cdee3e9a8bf8",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:45:32.423915"
+      },
+      "modified_at": "2025-12-14T21:44:03.215451",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 2,
+      "rule": {
+        "id": "e6a6512c-33a1-42e4-b0c0-cdee3e9a8bf8",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:45:32.423915"
+      },
+      "modified_at": "2025-12-14T21:44:03.749855",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 3,
+      "rule": {
+        "id": "e6a6512c-33a1-42e4-b0c0-cdee3e9a8bf8",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:45:32.423915"
+      },
+      "modified_at": "2025-12-14T21:44:16.868277",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 4,
+      "rule": {
+        "id": "e6a6512c-33a1-42e4-b0c0-cdee3e9a8bf8",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:45:32.423915"
+      },
+      "modified_at": "2025-12-14T21:44:22.088115",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "bccbae55-a566-4e2d-b738-16526a7f8414": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "bccbae55-a566-4e2d-b738-16526a7f8414",
+        "name": "ML-Generated Suspicious IP Detection",
+        "description": "Detect suspicious IP activity based on ML analysis",
+        "severity": "LOW",
+        "pattern": "ip_behavior_anomaly",
+        "remediation": "Review IP access patterns and implement IP allowlisting",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T15:45:32.423940"
+      },
+      "modified_at": "2025-12-14T21:44:07.005603",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "6bbd6e64-48b0-492c-bf07-c00def3a683c": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "6bbd6e64-48b0-492c-bf07-c00def3a683c",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T18:44:21.578731"
+      },
+      "modified_at": "2025-12-14T21:44:22.105795",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 2,
+      "rule": {
+        "id": "6bbd6e64-48b0-492c-bf07-c00def3a683c",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T18:44:21.578731"
+      },
+      "modified_at": "2025-12-14T21:44:23.846722",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "088b60c6-a1eb-43d2-ab18-35df003efc5f": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "088b60c6-a1eb-43d2-ab18-35df003efc5f",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T15:45:45.007195"
+      },
+      "modified_at": "2025-12-14T21:54:50.390337",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 2,
+      "rule": {
+        "id": "088b60c6-a1eb-43d2-ab18-35df003efc5f",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T15:45:45.007195"
+      },
+      "modified_at": "2025-12-14T21:54:58.053967",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 3,
+      "rule": {
+        "id": "088b60c6-a1eb-43d2-ab18-35df003efc5f",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T15:45:45.007195"
+      },
+      "modified_at": "2025-12-14T21:54:59.635394",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    },
+    {
+      "version": 4,
+      "rule": {
+        "id": "088b60c6-a1eb-43d2-ab18-35df003efc5f",
+        "name": "ML-Generated Port Scan Detection",
+        "description": "Detect potential port scanning activities based on ML analysis",
+        "severity": "LOW",
+        "pattern": "port_access_pattern_unusual",
+        "remediation": "Review network access patterns and implement port access controls",
+        "source": "ML_GENERATED",
+        "status": "CANDIDATE",
+        "created_at": "2025-12-14T15:45:45.007195"
+      },
+      "modified_at": "2025-12-16T11:24:05.509010",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ],
+  "aa22b007-9575-47dd-bc44-bab28003901b": [
+    {
+      "version": 1,
+      "rule": {
+        "id": "aa22b007-9575-47dd-bc44-bab28003901b",
+        "name": "ML-Generated Unusual API Detection",
+        "description": "Detect unusual API behavior based on ML analysis",
+        "severity": "LOW",
+        "pattern": "api_usage_anomaly",
+        "remediation": "Review API access patterns and implement API rate limiting",
+        "source": "ML_GENERATED",
+        "status": "ACTIVE",
+        "created_at": "2025-12-14T18:33:06.829767"
+      },
+      "modified_at": "2025-12-14T21:55:09.752654",
+      "modified_by": null,
+      "change_reason": "Rule updated"
+    }
+  ]
+}

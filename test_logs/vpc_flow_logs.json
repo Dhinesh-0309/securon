@@ -1,0 +1,59 @@
+[
+  {
+    "timestamp": "2024-01-15T14:30:00Z",
+    "source": "VPC_FLOW",
+    "raw_data": {
+      "version": "2",
+      "account-id": "123456789012",
+      "interface-id": "eni-1235b8ca123456789",
+      "srcaddr": "192.168.1.100",
+      "dstaddr": "10.0.0.1",
+      "srcport": "49152",
+      "dstport": "22",
+      "protocol": "6",
+      "packets": "20",
+      "bytes": "4000",
+      "windowstart": "1642248600",
+      "windowend": "1642248660",
+      "action": "ACCEPT"
+    }
+  },
+  {
+    "timestamp": "2024-01-15T14:31:00Z",
+    "source": "VPC_FLOW",
+    "raw_data": {
+      "version": "2",
+      "account-id": "123456789012",
+      "interface-id": "eni-1235b8ca123456789",
+      "srcaddr": "203.0.113.12",
+      "dstaddr": "10.0.0.1",
+      "srcport": "49153",
+      "dstport": "22",
+      "protocol": "6",
+      "packets": "50",
+      "bytes": "10000",
+      "windowstart": "1642248660",
+      "windowend": "1642248720",
+      "action": "REJECT"
+    }
+  },
+  {
+    "timestamp": "2024-01-15T14:32:00Z",
+    "source": "VPC_FLOW",
+    "raw_data": {
+      "version": "2",
+      "account-id": "123456789012",
+      "interface-id": "eni-1235b8ca123456789",
+      "srcaddr": "203.0.113.12",
+      "dstaddr": "10.0.0.1",
+      "srcport": "49154",
+      "dstport": "3389",
+      "protocol": "6",
+      "packets": "30",
+      "bytes": "6000",
+      "windowstart": "1642248720",
+      "windowend": "1642248780",
+      "action": "REJECT"
+    }
+  }
+]

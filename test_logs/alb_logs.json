@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2024-01-15T14:30:00Z",
+    "source": "ALB",
+    "raw_data": {
+      "timestamp": "2024-01-15T14:30:00.000Z",
+      "client_ip": "203.0.113.12",
+      "client_port": 49152,
+      "target_ip": "10.0.0.1",
+      "target_port": 80,
+      "request_processing_time": 0.001,
+      "target_processing_time": 0.002,
+      "response_processing_time": 0.001,
+      "elb_status_code": 200,
+      "target_status_code": 200,
+      "received_bytes": 512,
+      "sent_bytes": 1024,
+      "request_method": "GET",
+      "request_url": "/api/users",
+      "request_proto": "HTTP/1.1",
+      "user_agent": "Mozilla/5.0",
+      "ssl_cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+      "ssl_protocol": "TLSv1.2"
+    }
+  },
+  {
+    "timestamp": "2024-01-15T14:31:00Z",
+    "source": "ALB",
+    "raw_data": {
+      "timestamp": "2024-01-15T14:31:00.000Z",
+      "client_ip": "203.0.113.15",
+      "client_port": 49153,
+      "target_ip": "10.0.0.2",
+      "target_port": 80,
+      "request_processing_time": 0.005,
+      "target_processing_time": 5.000,
+      "response_processing_time": 0.001,
+      "elb_status_code": 500,
+      "target_status_code": 500,
+      "received_bytes": 256,
+      "sent_bytes": 512,
+      "request_method": "POST",
+      "request_url": "/api/admin/delete-all",
+      "request_proto": "HTTP/1.1",
+      "user_agent": "curl/7.68.0",
+      "ssl_cipher": "-",
+      "ssl_protocol": "-"
+    }
+  }
+]

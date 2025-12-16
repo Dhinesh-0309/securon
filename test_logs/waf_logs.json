@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2024-01-15T14:30:00Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1642248600000,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "Default_Action",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "ruleGroupList": [],
+      "rateBasedRuleList": [],
+      "nonTerminatingMatchingRules": [],
+      "httpRequest": {
+        "clientIP": "203.0.113.12",
+        "country": "US",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "BadBot/1.0"
+          }
+        ],
+        "uri": "/admin/login",
+        "args": "username=admin&password=123456",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "POST",
+        "requestId": "12345678-1234-1234-1234-123456789012"
+      }
+    }
+  },
+  {
+    "timestamp": "2024-01-15T14:31:00Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1642248660000,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "SQLInjectionRule",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "ruleGroupList": [],
+      "rateBasedRuleList": [],
+      "nonTerminatingMatchingRules": [],
+      "httpRequest": {
+        "clientIP": "203.0.113.15",
+        "country": "CN",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0"
+          }
+        ],
+        "uri": "/search",
+        "args": "q=' OR 1=1--",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "GET",
+        "requestId": "12345678-1234-1234-1234-123456789013"
+      }
+    }
+  }
+]

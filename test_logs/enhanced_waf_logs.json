@@ -1,0 +1,266 @@
+[
+  {
+    "timestamp": "2025-12-14T17:42:45.556914Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1765714365556,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "XSSRule",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "httpRequest": {
+        "clientIP": "203.0.113.15",
+        "country": "KP",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "BadBot/1.0"
+          }
+        ],
+        "uri": "/login",
+        "args": "user=<script>alert('xss')</script>",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "POST",
+        "requestId": "12345678-1234-1234-1234-854673296624"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:45:45.556914Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1765714545556,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "Default_Action",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "httpRequest": {
+        "clientIP": "203.0.113.15",
+        "country": "CN",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "BadBot/1.0"
+          }
+        ],
+        "uri": "/api/users",
+        "args": "id=1; DROP TABLE users;--",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "GET",
+        "requestId": "12345678-1234-1234-1234-367772143708"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:48:45.556914Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1765714725556,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "SQLInjectionRule",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "httpRequest": {
+        "clientIP": "203.0.113.15",
+        "country": "RU",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "BadBot/1.0"
+          }
+        ],
+        "uri": "/search",
+        "args": "q=' OR 1=1--",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "GET",
+        "requestId": "12345678-1234-1234-1234-600894001907"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:51:45.556914Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1765714905556,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "SQLInjectionRule",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "httpRequest": {
+        "clientIP": "198.51.100.25",
+        "country": "CN",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "BadBot/1.0"
+          }
+        ],
+        "uri": "/search",
+        "args": "q=' OR 1=1--",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "GET",
+        "requestId": "12345678-1234-1234-1234-794622550000"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:54:45.556914Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1765715085556,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "XSSRule",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "httpRequest": {
+        "clientIP": "192.0.2.100",
+        "country": "RU",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0"
+          }
+        ],
+        "uri": "/login",
+        "args": "user=<script>alert('xss')</script>",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "POST",
+        "requestId": "12345678-1234-1234-1234-459916117535"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-14T17:57:45.556914Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1765715265556,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "Default_Action",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "httpRequest": {
+        "clientIP": "203.0.113.15",
+        "country": "RU",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0"
+          }
+        ],
+        "uri": "/api/users",
+        "args": "id=1; DROP TABLE users;--",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "GET",
+        "requestId": "12345678-1234-1234-1234-500957284739"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:00:45.556914Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1765715445556,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "Default_Action",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "httpRequest": {
+        "clientIP": "203.0.113.15",
+        "country": "KP",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "BadBot/1.0"
+          }
+        ],
+        "uri": "/upload",
+        "args": "file=../../../etc/passwd",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "GET",
+        "requestId": "12345678-1234-1234-1234-285303107635"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-14T18:03:45.556914Z",
+    "source": "WAF",
+    "raw_data": {
+      "timestamp": 1765715625556,
+      "formatVersion": 1,
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/test-webacl/12345678-1234-1234-1234-123456789012",
+      "terminatingRuleId": "Default_Action",
+      "terminatingRuleType": "REGULAR",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "httpRequest": {
+        "clientIP": "203.0.113.15",
+        "country": "CN",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "BadBot/1.0"
+          }
+        ],
+        "uri": "/api/users",
+        "args": "id=1; DROP TABLE users;--",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "GET",
+        "requestId": "12345678-1234-1234-1234-800549440716"
+      }
+    }
+  }
+]

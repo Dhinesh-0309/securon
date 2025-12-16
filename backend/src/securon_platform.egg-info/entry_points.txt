@@ -1,0 +1,2 @@
+[console_scripts]
+securon = securon.cli.main:cli_main

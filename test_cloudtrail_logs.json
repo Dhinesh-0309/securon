@@ -1,0 +1,83 @@
+[
+  {
+    "eventVersion": "1.05",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+      "arn": "arn:aws:iam::123456789012:user/testuser",
+      "accountId": "123456789012",
+      "userName": "testuser"
+    },
+    "eventTime": "2023-12-14T10:30:00Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetObject",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "203.0.113.12",
+    "userAgent": "aws-cli/2.0.0",
+    "requestParameters": {
+      "bucketName": "sensitive-data-bucket",
+      "key": "confidential/database-backup.sql"
+    },
+    "responseElements": null,
+    "requestID": "87654321-1234-1234-1234-987654321098",
+    "eventID": "12345678-1234-1234-1234-123456789012",
+    "eventType": "AwsApiCall",
+    "recipientAccountId": "123456789012"
+  },
+  {
+    "eventVersion": "1.05",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+      "arn": "arn:aws:iam::123456789012:user/testuser",
+      "accountId": "123456789012",
+      "userName": "testuser"
+    },
+    "eventTime": "2023-12-14T10:31:00Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "CreateUser",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "203.0.113.12",
+    "userAgent": "aws-cli/2.0.0",
+    "requestParameters": {
+      "userName": "backdoor-user"
+    },
+    "responseElements": {
+      "user": {
+        "path": "/",
+        "userName": "backdoor-user",
+        "userId": "AIDACKCEVSQ6C2BACKDOOR",
+        "arn": "arn:aws:iam::123456789012:user/backdoor-user"
+      }
+    },
+    "requestID": "87654321-1234-1234-1234-987654321099",
+    "eventID": "12345678-1234-1234-1234-123456789013",
+    "eventType": "AwsApiCall",
+    "recipientAccountId": "123456789012"
+  },
+  {
+    "eventVersion": "1.05",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+      "arn": "arn:aws:iam::123456789012:user/testuser",
+      "accountId": "123456789012",
+      "userName": "testuser"
+    },
+    "eventTime": "2023-12-14T10:32:00Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "AttachUserPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "203.0.113.12",
+    "userAgent": "aws-cli/2.0.0",
+    "requestParameters": {
+      "userName": "backdoor-user",
+      "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+    },
+    "responseElements": null,
+    "requestID": "87654321-1234-1234-1234-987654321100",
+    "eventID": "12345678-1234-1234-1234-123456789014",
+    "eventType": "AwsApiCall",
+    "recipientAccountId": "123456789012"
+  }
+]

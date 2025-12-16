@@ -1,0 +1,65 @@
+[
+  {
+    "timestamp": "2024-01-15T02:30:00Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/admin",
+        "accountId": "123456789012",
+        "userName": "admin"
+      },
+      "eventTime": "2024-01-15T02:30:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "TerminateInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.12",
+      "userAgent": "aws-cli/2.0.0",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-1234567890abcdef0"
+            }
+          ]
+        }
+      },
+      "responseElements": null,
+      "requestID": "12345678-1234-1234-1234-123456789012",
+      "eventID": "87654321-4321-4321-4321-210987654321",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "123456789012"
+    }
+  },
+  {
+    "timestamp": "2024-01-15T02:35:00Z",
+    "source": "CLOUDTRAIL",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/admin",
+        "accountId": "123456789012",
+        "userName": "admin"
+      },
+      "eventTime": "2024-01-15T02:35:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.12",
+      "userAgent": "aws-cli/2.0.0",
+      "requestParameters": {
+        "bucketName": "sensitive-data-bucket",
+        "key": "confidential/database-backup.sql"
+      },
+      "responseElements": null,
+      "requestID": "12345678-1234-1234-1234-123456789013",
+      "eventID": "87654321-4321-4321-4321-210987654322",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "123456789012"
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2024-01-15T14:25:00Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2024-01-15T14:25:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "requestParameters": null,
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-123456789014",
+      "eventID": "87654321-4321-4321-4321-210987654323",
+      "eventType": "AwsConsoleSignIn",
+      "recipientAccountId": "123456789012"
+    }
+  },
+  {
+    "timestamp": "2024-01-15T14:26:00Z",
+    "source": "IAM",
+    "raw_data": {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2024-01-15T14:26:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "203.0.113.15",
+      "userAgent": "Mozilla/5.0",
+      "requestParameters": null,
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "requestID": "12345678-1234-1234-1234-123456789015",
+      "eventID": "87654321-4321-4321-4321-210987654324",
+      "eventType": "AwsConsoleSignIn",
+      "recipientAccountId": "123456789012"
+    }
+  }
+]

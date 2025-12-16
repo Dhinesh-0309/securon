@@ -1,0 +1,48 @@
+{
+  "environment": "development",
+  "debug": false,
+  "api_host": "0.0.0.0",
+  "api_port": 8000,
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "securon",
+    "user": "securon",
+    "password": ""
+  },
+  "ml_engine": {
+    "contamination": 0.1,
+    "random_state": 42,
+    "batch_size": 1000,
+    "max_memory_mb": 512
+  },
+  "rule_engine": {
+    "storage_path": "data/rules",
+    "max_rules": 1000,
+    "backup_enabled": true,
+    "backup_interval_hours": 24
+  },
+  "iac_scanner": {
+    "max_file_size_mb": 10,
+    "supported_extensions": [".tf", ".hcl", ".json"],
+    "timeout_seconds": 300
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_path": "logs/securon.log",
+    "max_file_size_mb": 100,
+    "backup_count": 5
+  },
+  "monitoring": {
+    "enabled": true,
+    "metrics_interval_seconds": 60,
+    "health_check_interval_seconds": 30,
+    "alert_thresholds": {
+      "cpu_usage": 80.0,
+      "memory_usage": 85.0,
+      "error_rate": 5.0,
+      "response_time_ms": 5000.0
+    }
+  }
+}

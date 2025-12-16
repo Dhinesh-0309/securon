@@ -1,0 +1,1 @@
+"""API routes for Securon Platform"""

@@ -1,0 +1,113 @@
+[
+  {
+    "timestamp": "2024-12-16T11:15:00Z",
+    "raw_data": {
+      "timestamp": "1734350100000",
+      "formatVersion": "1.0",
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/ExampleWebACL",
+      "terminatingRuleId": "RateLimitRule",
+      "terminatingRuleType": "RATE_BASED",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "ruleGroupList": [],
+      "rateBasedRuleList": [
+        {
+          "rateBasedRuleId": "RateLimitRule",
+          "limitKey": "IP",
+          "maxRateAllowed": 2000
+        }
+      ],
+      "httpRequest": {
+        "clientIp": "192.0.2.44",
+        "country": "US",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "BadBot/1.0"
+          }
+        ],
+        "uri": "/api/login",
+        "args": "",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "POST",
+        "requestId": "rid-12345"
+      }
+    }
+  },
+  {
+    "timestamp": "2024-12-16T11:15:01Z",
+    "raw_data": {
+      "timestamp": "1734350101000",
+      "formatVersion": "1.0",
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/ExampleWebACL",
+      "terminatingRuleId": "RateLimitRule",
+      "terminatingRuleType": "RATE_BASED",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "rateBasedRuleList": [
+        {
+          "rateBasedRuleId": "RateLimitRule",
+          "limitKey": "IP",
+          "maxRateAllowed": 2000
+        }
+      ],
+      "httpRequest": {
+        "clientIp": "192.0.2.44",
+        "country": "US",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "BadBot/1.0"
+          }
+        ],
+        "uri": "/api/users",
+        "args": "",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "GET",
+        "requestId": "rid-12346"
+      }
+    }
+  },
+  {
+    "timestamp": "2024-12-16T11:15:02Z",
+    "raw_data": {
+      "timestamp": "1734350102000",
+      "formatVersion": "1.0",
+      "webaclId": "arn:aws:wafv2:us-east-1:123456789012:regional/webacl/ExampleWebACL",
+      "terminatingRuleId": "SQLInjectionRule",
+      "terminatingRuleType": "MANAGED_RULE_GROUP",
+      "action": "BLOCK",
+      "httpSourceName": "ALB",
+      "httpSourceId": "123456789012-app/my-loadbalancer/50dc6c495c0c9188",
+      "httpRequest": {
+        "clientIp": "203.0.113.78",
+        "country": "CN",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "sqlmap/1.0"
+          }
+        ],
+        "uri": "/search",
+        "args": "q=1' OR '1'='1",
+        "httpVersion": "HTTP/1.1",
+        "httpMethod": "GET",
+        "requestId": "rid-12347"
+      }
+    }
+  }
+]

@@ -1,0 +1,225 @@
+2025-12-14 13:38:09,514 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:38:09,514 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:38:09,515 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:38:09,515 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:38:09,515 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.00ms - SUCCESS
+2025-12-14 13:38:09,515 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:38:09,516 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:38:09,516 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:38:09,516 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:38:09,516 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:38:09,516 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:38:09,516 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:38:09,516 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:38:09,516 - securon.platform - INFO - PERFORMANCE: platform.startup - 2.26ms - SUCCESS
+2025-12-14 13:38:09,516 - securon.platform.orchestrator - INFO - Platform initialization completed in 2.26ms
+2025-12-14 13:38:09,527 - securon.iac_scanner - INFO - PERFORMANCE: iac_scanner.scan_iac_workflow - 10.64ms - SUCCESS
+2025-12-14 13:38:09,527 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:38:09,527 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:38:09,527 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:38:09,527 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:38:09,527 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:38:09,527 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:38:09,527 - securon.platform - INFO - Platform component shutting down
+2025-12-14 13:38:45,921 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:38:45,921 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:38:45,922 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:38:45,923 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:38:45,923 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.00ms - SUCCESS
+2025-12-14 13:38:45,923 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:38:45,923 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:38:45,923 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:38:45,923 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:38:45,923 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:38:45,923 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:38:45,923 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:38:45,923 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:38:45,923 - securon.platform - INFO - PERFORMANCE: platform.startup - 2.35ms - SUCCESS
+2025-12-14 13:38:45,923 - securon.platform.orchestrator - INFO - Platform initialization completed in 2.35ms
+2025-12-14 13:38:45,939 - securon.iac_scanner - INFO - PERFORMANCE: iac_scanner.scan_iac_workflow - 16.21ms - SUCCESS
+2025-12-14 13:38:45,940 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:38:45,940 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:38:45,940 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:38:45,940 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:38:45,940 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:38:45,940 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:38:45,940 - securon.platform - INFO - Platform component shutting down
+2025-12-14 13:39:03,928 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:39:03,929 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:39:03,930 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:39:03,930 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:39:03,930 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.00ms - SUCCESS
+2025-12-14 13:39:03,930 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:39:03,930 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:39:03,930 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:39:03,930 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:39:03,930 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:39:03,930 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:39:03,930 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:39:03,930 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:39:03,930 - securon.platform - INFO - PERFORMANCE: platform.startup - 2.22ms - SUCCESS
+2025-12-14 13:39:03,931 - securon.platform.orchestrator - INFO - Platform initialization completed in 2.22ms
+2025-12-14 13:39:03,943 - securon.iac_scanner - INFO - PERFORMANCE: iac_scanner.scan_iac_workflow - 12.71ms - SUCCESS
+2025-12-14 13:39:03,943 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:39:03,944 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:39:03,944 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:39:03,944 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:39:03,944 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:39:03,944 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:39:03,944 - securon.platform - INFO - Platform component shutting down
+2025-12-14 13:39:25,737 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:39:25,737 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:39:25,738 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:39:25,738 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:39:25,738 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.00ms - SUCCESS
+2025-12-14 13:39:25,738 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:39:25,739 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:39:25,739 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:39:25,739 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:39:25,739 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:39:25,739 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:39:25,739 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:39:25,739 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:39:25,739 - securon.platform - INFO - PERFORMANCE: platform.startup - 2.15ms - SUCCESS
+2025-12-14 13:39:25,739 - securon.platform.orchestrator - INFO - Platform initialization completed in 2.15ms
+2025-12-14 13:39:26,801 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:39:26,801 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:39:26,801 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:39:26,801 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:39:26,801 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:39:26,801 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:39:26,801 - securon.platform - INFO - Platform component shutting down
+2025-12-14 13:40:13,056 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:40:13,057 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:40:13,060 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.03ms - SUCCESS
+2025-12-14 13:40:13,060 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:40:13,060 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:40:13,060 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:40:13,061 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:40:13,061 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:40:13,061 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:40:13,061 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:40:13,061 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:40:13,061 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:40:13,073 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:40:13,073 - securon.platform - INFO - PERFORMANCE: platform.startup - 17.15ms - SUCCESS
+2025-12-14 13:40:13,073 - securon.platform.orchestrator - INFO - Platform initialization completed in 17.15ms
+2025-12-14 13:40:13,076 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:40:13,078 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:40:13,079 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:40:13,079 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:40:13,079 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:40:13,080 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:40:13,080 - securon.platform - INFO - Platform component shutting down
+2025-12-14 13:47:38,706 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:47:38,706 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:47:38,707 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:47:38,707 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:47:38,707 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.00ms - SUCCESS
+2025-12-14 13:47:38,707 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:47:38,709 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:47:38,709 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:47:38,709 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:47:38,709 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:47:38,709 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:47:38,709 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:47:38,709 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:47:38,709 - securon.platform - INFO - PERFORMANCE: platform.startup - 3.02ms - SUCCESS
+2025-12-14 13:47:38,709 - securon.platform.orchestrator - INFO - Platform initialization completed in 3.02ms
+2025-12-14 13:47:38,709 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:47:38,709 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:47:38,709 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:47:38,709 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:47:38,709 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:47:38,709 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:47:38,709 - securon.platform - INFO - Platform component shutting down
+2025-12-14 13:47:52,222 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:47:52,223 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:47:52,224 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:47:52,224 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:47:52,224 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.00ms - SUCCESS
+2025-12-14 13:47:52,224 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:47:52,225 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:47:52,225 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:47:52,225 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:47:52,225 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:47:52,225 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:47:52,226 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:47:52,226 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:47:52,226 - securon.platform - INFO - PERFORMANCE: platform.startup - 3.38ms - SUCCESS
+2025-12-14 13:47:52,226 - securon.platform.orchestrator - INFO - Platform initialization completed in 3.38ms
+2025-12-14 13:47:52,237 - securon.iac_scanner - INFO - PERFORMANCE: iac_scanner.scan_iac_workflow - 11.17ms - SUCCESS
+2025-12-14 13:47:52,237 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:47:52,237 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:47:52,237 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:47:52,237 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:47:52,237 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:47:52,237 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:47:52,237 - securon.platform - INFO - Platform component shutting down
+2025-12-14 13:48:10,712 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:48:10,712 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:48:10,714 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:48:10,714 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:48:10,714 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.00ms - SUCCESS
+2025-12-14 13:48:10,714 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:48:10,715 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:48:10,715 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:48:10,715 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:48:10,715 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:48:10,715 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:48:10,715 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:48:10,715 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:48:10,715 - securon.platform - INFO - PERFORMANCE: platform.startup - 3.19ms - SUCCESS
+2025-12-14 13:48:10,715 - securon.platform.orchestrator - INFO - Platform initialization completed in 3.19ms
+2025-12-14 13:48:10,730 - securon.iac_scanner - INFO - PERFORMANCE: iac_scanner.scan_iac_workflow - 14.62ms - SUCCESS
+2025-12-14 13:48:10,730 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:48:10,730 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:48:10,730 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:48:10,730 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:48:10,730 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:48:10,730 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:48:10,730 - securon.platform - INFO - Platform component shutting down
+2025-12-14 13:48:24,342 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:48:24,342 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:48:24,343 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:48:24,343 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:48:24,344 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.00ms - SUCCESS
+2025-12-14 13:48:24,344 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:48:24,345 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:48:24,345 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:48:24,345 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:48:24,345 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:48:24,345 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:48:24,345 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:48:24,345 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:48:24,345 - securon.platform - INFO - PERFORMANCE: platform.startup - 3.23ms - SUCCESS
+2025-12-14 13:48:24,345 - securon.platform.orchestrator - INFO - Platform initialization completed in 3.23ms
+2025-12-14 13:48:24,349 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:48:24,349 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:48:24,349 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:48:24,349 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:48:24,349 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:48:24,349 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:48:24,349 - securon.platform - INFO - Platform component shutting down
+2025-12-14 13:50:25,586 - securon.platform - INFO - Platform component started v1.0.0
+2025-12-14 13:50:25,586 - securon.monitoring - INFO - Monitoring component started
+2025-12-14 13:50:25,588 - securon.rule_engine - INFO - PERFORMANCE: rule_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:50:25,588 - securon.rule_engine - INFO - Rule_Engine component started
+2025-12-14 13:50:25,588 - securon.ml_engine - INFO - PERFORMANCE: ml_engine.health_check - 0.01ms - SUCCESS
+2025-12-14 13:50:25,588 - securon.ml_engine - INFO - Ml_Engine component started
+2025-12-14 13:50:25,590 - securon.iac_scanner - INFO - Iac_Scanner component started
+2025-12-14 13:50:25,590 - securon.log_processor - INFO - Log_Processor component started
+2025-12-14 13:50:25,590 - securon.platform.monitoring - INFO - Registered health check for component: rule_engine
+2025-12-14 13:50:25,590 - securon.platform.monitoring - INFO - Registered health check for component: ml_engine
+2025-12-14 13:50:25,590 - securon.platform.monitoring - INFO - Registered health check for component: iac_scanner
+2025-12-14 13:50:25,590 - securon.platform.monitoring - INFO - Registered health check for component: log_processor
+2025-12-14 13:50:25,590 - securon.platform.monitoring - INFO - Starting platform monitoring
+2025-12-14 13:50:25,590 - securon.platform - INFO - PERFORMANCE: platform.startup - 4.90ms - SUCCESS
+2025-12-14 13:50:25,590 - securon.platform.orchestrator - INFO - Platform initialization completed in 4.90ms
+2025-12-14 13:50:25,591 - securon.platform.orchestrator - INFO - Shutting down Securon Platform
+2025-12-14 13:50:25,591 - securon.platform.monitoring - INFO - Platform monitoring stopped
+2025-12-14 13:50:25,591 - securon.log_processor - INFO - Log_Processor component shutting down
+2025-12-14 13:50:25,591 - securon.iac_scanner - INFO - Iac_Scanner component shutting down
+2025-12-14 13:50:25,591 - securon.ml_engine - INFO - Ml_Engine component shutting down
+2025-12-14 13:50:25,591 - securon.rule_engine - INFO - Rule_Engine component shutting down
+2025-12-14 13:50:25,591 - securon.platform - INFO - Platform component shutting down

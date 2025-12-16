@@ -1,0 +1,9 @@
+[
+  {
+    "rule_id": "56dba3fc-fe12-4943-9c3e-a5070b40fd9a",
+    "conflicting_rule_id": "86a4d525-b319-4c37-9f0f-3132e80b81fb",
+    "conflict_type": "duplicate_name",
+    "description": "Rules have identical names: ML-Generated Suspicious IP Detection",
+    "severity": "LOW"
+  }
+]
