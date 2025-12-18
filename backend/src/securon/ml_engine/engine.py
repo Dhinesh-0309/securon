@@ -19,12 +19,12 @@ from ..interfaces.iac_scanner import SecurityRule, RuleSource, RuleStatus
 class IsolationForestMLEngine(MLEngine):
     """ML Engine implementation using Isolation Forest for anomaly detection"""
     
-    def __init__(self, contamination: float = 0.1, random_state: int = 42):
+    def __init__(self, contamination: float = 0.05, random_state: int = 42):
         """
         Initialize the ML Engine with Isolation Forest
         
         Args:
-            contamination: Expected proportion of anomalies in the data
+            contamination: Expected proportion of anomalies in the data (lowered for better detection)
             random_state: Random state for reproducible results
         """
         self.contamination = contamination
@@ -36,15 +36,99 @@ class IsolationForestMLEngine(MLEngine):
             n_estimators=100
         )
         
+        # Define suspicious patterns for rule-based detection
+        self.suspicious_ports = {22, 23, 21, 3389, 1433, 3306, 5432, 27017, 161, 135, 139, 445}
+        self.suspicious_ips = set()  # Will be populated with known bad IPs
+        self.brute_force_keywords = ['login', 'auth', 'signin', 'failed', 'failure', 'error', 'denied']
+        self.admin_keywords = ['admin', 'root', 'administrator', 'config', '.env', 'wp-admin']
+        
     async def process_logs(self, logs: List[CloudLog]) -> List[AnomalyResult]:
-        """Process cloud logs and detect anomalies using Isolation Forest"""
+        """Process cloud logs and detect anomalies using hybrid approach"""
         if not logs:
             return []
+        
+        anomalies = []
+        
+        # First, use rule-based detection for obvious threats
+        rule_based_anomalies = self._detect_rule_based_anomalies(logs)
+        anomalies.extend(rule_based_anomalies)
+        
+        # Then use ML for pattern-based detection (only if we have enough data)
+        if len(logs) >= 3:
+            ml_anomalies = await self._detect_ml_anomalies(logs)
+            anomalies.extend(ml_anomalies)
+        
+        # Remove duplicates based on log content
+        unique_anomalies = self._deduplicate_anomalies(anomalies)
+        
+        return unique_anomalies
+    
+    def _detect_rule_based_anomalies(self, logs: List[CloudLog]) -> List[AnomalyResult]:
+        """Detect obvious anomalies using rule-based approach"""
+        anomalies = []
+        
+        # Track patterns for multi-log analysis
+        ip_port_access = {}
+        failed_logins = {}
+        
+        for i, log in enumerate(logs):
+            normalized = log.normalized_data
             
+            # Port scanning detection
+            if normalized.port and normalized.port in self.suspicious_ports:
+                anomaly = self._create_anomaly_result(
+                    log, None, -0.8, i, AnomalyType.PORT_SCAN
+                )
+                anomalies.append(anomaly)
+            
+            # Brute force detection
+            if normalized.action and any(keyword in normalized.action.lower() 
+                                       for keyword in self.brute_force_keywords):
+                # Track failed logins by IP
+                ip = normalized.source_ip or 'unknown'
+                if ip not in failed_logins:
+                    failed_logins[ip] = []
+                failed_logins[ip].append(log)
+                
+                # If multiple failures from same IP, it's likely brute force
+                if len(failed_logins[ip]) >= 2:
+                    anomaly = self._create_anomaly_result(
+                        log, None, -0.9, i, AnomalyType.BRUTE_FORCE
+                    )
+                    anomalies.append(anomaly)
+            
+            # Admin/config access detection
+            if (normalized.resource and any(keyword in normalized.resource.lower() 
+                                          for keyword in self.admin_keywords)) or \
+               (normalized.api_call and any(keyword in normalized.api_call.lower() 
+                                          for keyword in self.admin_keywords)):
+                anomaly = self._create_anomaly_result(
+                    log, None, -0.7, i, AnomalyType.UNUSUAL_API
+                )
+                anomalies.append(anomaly)
+            
+            # Track IP-port combinations for scanning detection
+            if normalized.source_ip and normalized.port:
+                ip = normalized.source_ip
+                if ip not in ip_port_access:
+                    ip_port_access[ip] = set()
+                ip_port_access[ip].add(normalized.port)
+                
+                # If same IP accessing multiple ports, likely scanning
+                if len(ip_port_access[ip]) >= 3:
+                    anomaly = self._create_anomaly_result(
+                        log, None, -0.85, i, AnomalyType.SUSPICIOUS_IP
+                    )
+                    anomalies.append(anomaly)
+        
+        return anomalies
+    
+    async def _detect_ml_anomalies(self, logs: List[CloudLog]) -> List[AnomalyResult]:
+        """Use ML-based detection for pattern anomalies"""
         # Convert logs to feature matrix
         features_df = self._extract_features(logs)
         
-        if features_df.empty:
+        if features_df.empty or len(features_df) < 3:
             return []
             
         # Normalize features
@@ -65,6 +149,21 @@ class IsolationForestMLEngine(MLEngine):
                 anomalies.append(anomaly)
                 
         return anomalies
+    
+    def _deduplicate_anomalies(self, anomalies: List[AnomalyResult]) -> List[AnomalyResult]:
+        """Remove duplicate anomalies based on similarity"""
+        if not anomalies:
+            return []
+        
+        # Simple deduplication - keep the highest severity anomaly per type per time window
+        unique_anomalies = {}
+        
+        for anomaly in anomalies:
+            key = f"{anomaly.type.value}_{anomaly.time_window.start.strftime('%Y%m%d%H%M')}"
+            if key not in unique_anomalies or anomaly.severity > unique_anomalies[key].severity:
+                unique_anomalies[key] = anomaly
+        
+        return list(unique_anomalies.values())
     
     def _extract_features(self, logs: List[CloudLog]) -> pd.DataFrame:
         """Extract numerical features from cloud logs for ML analysis"""
@@ -99,12 +198,14 @@ class IsolationForestMLEngine(MLEngine):
         log: CloudLog, 
         features: pd.Series, 
         anomaly_score: float,
-        log_index: int
+        log_index: int,
+        anomaly_type: AnomalyType = None
     ) -> AnomalyResult:
         """Create an AnomalyResult from a detected anomaly"""
         
-        # Determine anomaly type based on log characteristics
-        anomaly_type = self._classify_anomaly_type(log)
+        # Determine anomaly type based on log characteristics (use provided type if available)
+        if anomaly_type is None:
+            anomaly_type = self._classify_anomaly_type(log)
         
         # Calculate severity based on anomaly score (more negative = more anomalous)
         severity = abs(anomaly_score)
@@ -117,7 +218,7 @@ class IsolationForestMLEngine(MLEngine):
         )
         
         # Generate patterns that contributed to the anomaly
-        patterns = self._generate_anomaly_patterns(features, log)
+        patterns = self._generate_anomaly_patterns(features, log) if features is not None else self._generate_rule_based_patterns(log)
         
         # Determine affected resources
         affected_resources = []
@@ -142,19 +243,26 @@ class IsolationForestMLEngine(MLEngine):
         """Classify the type of anomaly based on log characteristics"""
         normalized = log.normalized_data
         
-        # Port scan detection: unusual port access patterns
-        if normalized.port and (normalized.port < 1024 or normalized.port > 65000):
+        # Brute force detection: authentication-related actions (check first as it's most critical)
+        if normalized.action and any(keyword in normalized.action.lower() 
+                                   for keyword in self.brute_force_keywords):
+            return AnomalyType.BRUTE_FORCE
+        
+        # Port scan detection: suspicious ports or multiple port access
+        if normalized.port and normalized.port in self.suspicious_ports:
             return AnomalyType.PORT_SCAN
             
-        # Brute force detection: authentication-related actions
-        if normalized.action and any(keyword in normalized.action.lower() 
-                                   for keyword in ['login', 'auth', 'signin', 'failed']):
-            return AnomalyType.BRUTE_FORCE
-            
-        # Unusual API behavior: uncommon API calls
-        if normalized.api_call and any(keyword in normalized.api_call.lower()
-                                     for keyword in ['delete', 'modify', 'admin', 'root']):
+        # Unusual API behavior: admin/config access attempts
+        if ((normalized.resource and any(keyword in normalized.resource.lower()
+                                       for keyword in self.admin_keywords)) or
+            (normalized.api_call and any(keyword in normalized.api_call.lower()
+                                       for keyword in self.admin_keywords))):
             return AnomalyType.UNUSUAL_API
+        
+        # Check for suspicious source IPs or unusual access patterns
+        if normalized.source_ip:
+            # Check if IP is accessing multiple different ports/services
+            return AnomalyType.SUSPICIOUS_IP
             
         # Default to suspicious IP for other cases
         return AnomalyType.SUSPICIOUS_IP
@@ -192,6 +300,51 @@ class IsolationForestMLEngine(MLEngine):
                 deviation=1.0
             ))
             
+        return patterns
+    
+    def _generate_rule_based_patterns(self, log: CloudLog) -> List[AnomalyPattern]:
+        """Generate patterns for rule-based anomaly detection"""
+        patterns = []
+        normalized = log.normalized_data
+        
+        # Port-based patterns
+        if normalized.port and normalized.port in self.suspicious_ports:
+            patterns.append(AnomalyPattern(
+                feature="suspicious_port",
+                expected_range=(1024.0, 65535.0),
+                actual_value=float(normalized.port),
+                deviation=1.0
+            ))
+        
+        # Action-based patterns
+        if normalized.action and any(keyword in normalized.action.lower() 
+                                   for keyword in self.brute_force_keywords):
+            patterns.append(AnomalyPattern(
+                feature="authentication_failure",
+                expected_range=(0.0, 0.1),
+                actual_value=1.0,
+                deviation=1.0
+            ))
+        
+        # Resource-based patterns
+        if normalized.resource and any(keyword in normalized.resource.lower() 
+                                     for keyword in self.admin_keywords):
+            patterns.append(AnomalyPattern(
+                feature="admin_access_attempt",
+                expected_range=(0.0, 0.1),
+                actual_value=1.0,
+                deviation=1.0
+            ))
+        
+        # Default pattern if none found
+        if not patterns:
+            patterns.append(AnomalyPattern(
+                feature="general_suspicious_behavior",
+                expected_range=(0.0, 0.5),
+                actual_value=1.0,
+                deviation=1.0
+            ))
+        
         return patterns
     
     def generate_candidate_rules(self, anomalies: List[AnomalyResult]) -> List[SecurityRule]:

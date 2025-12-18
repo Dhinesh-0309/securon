@@ -128,7 +128,7 @@
     "pattern": "port_access_pattern_unusual",
     "remediation": "Review network access patterns and implement port access controls",
     "source": "ML_GENERATED",
-    "status": "ACTIVE",
+    "status": "CANDIDATE",
     "created_at": "2025-12-14T15:22:26.434759"
   },
   "b25fab31-8e4c-4663-bb01-619f87cf2404": {
@@ -172,7 +172,7 @@
     "pattern": "port_access_pattern_unusual",
     "remediation": "Review network access patterns and implement port access controls",
     "source": "ML_GENERATED",
-    "status": "CANDIDATE",
+    "status": "REJECTED",
     "created_at": "2025-12-14T15:39:20.651620"
   },
   "e6a6512c-33a1-42e4-b0c0-cdee3e9a8bf8": {
@@ -183,7 +183,7 @@
     "pattern": "port_access_pattern_unusual",
     "remediation": "Review network access patterns and implement port access controls",
     "source": "ML_GENERATED",
-    "status": "CANDIDATE",
+    "status": "REJECTED",
     "created_at": "2025-12-14T15:45:32.423915"
   },
   "bccbae55-a566-4e2d-b738-16526a7f8414": {
@@ -194,7 +194,7 @@
     "pattern": "ip_behavior_anomaly",
     "remediation": "Review IP access patterns and implement IP allowlisting",
     "source": "ML_GENERATED",
-    "status": "ACTIVE",
+    "status": "CANDIDATE",
     "created_at": "2025-12-14T15:45:32.423940"
   },
   "088b60c6-a1eb-43d2-ab18-35df003efc5f": {
@@ -205,7 +205,7 @@
     "pattern": "port_access_pattern_unusual",
     "remediation": "Review network access patterns and implement port access controls",
     "source": "ML_GENERATED",
-    "status": "CANDIDATE",
+    "status": "REJECTED",
     "created_at": "2025-12-14T15:45:45.007195"
   },
   "e778be42-ae2d-4f77-b0d3-e4cd4f0be807": {
@@ -260,7 +260,7 @@
     "pattern": "ip_behavior_anomaly",
     "remediation": "Review IP access patterns and implement IP allowlisting",
     "source": "ML_GENERATED",
-    "status": "CANDIDATE",
+    "status": "ACTIVE",
     "created_at": "2025-12-14T18:44:21.578670"
   },
   "6bbd6e64-48b0-492c-bf07-c00def3a683c": {
@@ -447,7 +447,7 @@
     "pattern": "port_access_pattern_unusual",
     "remediation": "Review network access patterns and implement port access controls",
     "source": "ML_GENERATED",
-    "status": "CANDIDATE",
+    "status": "ACTIVE",
     "created_at": "2025-12-14T19:19:37.355099"
   },
   "9f52aad3-e6c7-4ace-908a-661f29fadc8e": {
@@ -702,5 +702,104 @@
     "source": "ML_GENERATED",
     "status": "CANDIDATE",
     "created_at": "2025-12-16T18:35:41.787351"
+  },
+  "004dbef4-a011-4889-9ee4-931f954c26ac": {
+    "id": "004dbef4-a011-4889-9ee4-931f954c26ac",
+    "name": "ML-Generated Brute Force Detection",
+    "description": "Detect potential brute force attacks based on ML analysis",
+    "severity": "CRITICAL",
+    "pattern": "authentication_failure_pattern",
+    "remediation": "Implement account lockout policies and multi-factor authentication",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-16T18:49:03.233207"
+  },
+  "9f30b0be-5d67-4c43-ad53-4d2528753b74": {
+    "id": "9f30b0be-5d67-4c43-ad53-4d2528753b74",
+    "name": "ML-Generated Port Scan Detection",
+    "description": "Detect potential port scanning activities based on ML analysis",
+    "severity": "HIGH",
+    "pattern": "port_access_pattern_unusual",
+    "remediation": "Review network access patterns and implement port access controls",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-16T19:27:24.157062"
+  },
+  "54f8e7f7-ef80-4959-89ee-9daab78b509e": {
+    "id": "54f8e7f7-ef80-4959-89ee-9daab78b509e",
+    "name": "ML-Generated Suspicious IP Detection",
+    "description": "Detect suspicious IP activity based on ML analysis",
+    "severity": "CRITICAL",
+    "pattern": "ip_behavior_anomaly",
+    "remediation": "Review IP access patterns and implement IP allowlisting",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-16T19:27:24.157093"
+  },
+  "2ae3e319-a27a-45d7-b7dd-b0e7084488bd": {
+    "id": "2ae3e319-a27a-45d7-b7dd-b0e7084488bd",
+    "name": "ML-Generated Port Scan Detection",
+    "description": "Detect potential port scanning activities based on ML analysis",
+    "severity": "HIGH",
+    "pattern": "port_access_pattern_unusual",
+    "remediation": "Review network access patterns and implement port access controls",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-16T19:53:57.172378"
+  },
+  "d5c7744d-33aa-4f1a-bfbf-78aa1e79325a": {
+    "id": "d5c7744d-33aa-4f1a-bfbf-78aa1e79325a",
+    "name": "ML-Generated Suspicious IP Detection",
+    "description": "Detect suspicious IP activity based on ML analysis",
+    "severity": "CRITICAL",
+    "pattern": "ip_behavior_anomaly",
+    "remediation": "Review IP access patterns and implement IP allowlisting",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-16T19:53:57.172402"
+  },
+  "58936404-6a41-4c10-9c95-46648c5ba784": {
+    "id": "58936404-6a41-4c10-9c95-46648c5ba784",
+    "name": "ML-Generated Port Scan Detection",
+    "description": "Detect potential port scanning activities based on ML analysis",
+    "severity": "HIGH",
+    "pattern": "port_access_pattern_unusual",
+    "remediation": "Review network access patterns and implement port access controls",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-16T20:48:56.288754"
+  },
+  "71fe00c5-cb74-44bc-8294-fc6fe3f45ec6": {
+    "id": "71fe00c5-cb74-44bc-8294-fc6fe3f45ec6",
+    "name": "ML-Generated Suspicious IP Detection",
+    "description": "Detect suspicious IP activity based on ML analysis",
+    "severity": "CRITICAL",
+    "pattern": "ip_behavior_anomaly",
+    "remediation": "Review IP access patterns and implement IP allowlisting",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-16T20:48:56.288780"
+  },
+  "4637a261-7434-4f02-92cd-9e4af94bbf15": {
+    "id": "4637a261-7434-4f02-92cd-9e4af94bbf15",
+    "name": "ML-Generated Port Scan Detection",
+    "description": "Detect potential port scanning activities based on ML analysis",
+    "severity": "HIGH",
+    "pattern": "port_access_pattern_unusual",
+    "remediation": "Review network access patterns and implement port access controls",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-18T10:54:19.268350"
+  },
+  "6ed20dc3-16d4-43aa-9249-40a3b66470fd": {
+    "id": "6ed20dc3-16d4-43aa-9249-40a3b66470fd",
+    "name": "ML-Generated Suspicious IP Detection",
+    "description": "Detect suspicious IP activity based on ML analysis",
+    "severity": "CRITICAL",
+    "pattern": "ip_behavior_anomaly",
+    "remediation": "Review IP access patterns and implement IP allowlisting",
+    "source": "ML_GENERATED",
+    "status": "CANDIDATE",
+    "created_at": "2025-12-18T10:54:19.268375"
   }
 }

@@ -510,5 +510,77 @@
     "true_positives": 0,
     "last_triggered": null,
     "effectiveness_score": 0.0
+  },
+  "004dbef4-a011-4889-9ee4-931f954c26ac": {
+    "rule_id": "004dbef4-a011-4889-9ee4-931f954c26ac",
+    "times_triggered": 0,
+    "false_positives": 0,
+    "true_positives": 0,
+    "last_triggered": null,
+    "effectiveness_score": 0.0
+  },
+  "9f30b0be-5d67-4c43-ad53-4d2528753b74": {
+    "rule_id": "9f30b0be-5d67-4c43-ad53-4d2528753b74",
+    "times_triggered": 0,
+    "false_positives": 0,
+    "true_positives": 0,
+    "last_triggered": null,
+    "effectiveness_score": 0.0
+  },
+  "54f8e7f7-ef80-4959-89ee-9daab78b509e": {
+    "rule_id": "54f8e7f7-ef80-4959-89ee-9daab78b509e",
+    "times_triggered": 0,
+    "false_positives": 0,
+    "true_positives": 0,
+    "last_triggered": null,
+    "effectiveness_score": 0.0
+  },
+  "2ae3e319-a27a-45d7-b7dd-b0e7084488bd": {
+    "rule_id": "2ae3e319-a27a-45d7-b7dd-b0e7084488bd",
+    "times_triggered": 0,
+    "false_positives": 0,
+    "true_positives": 0,
+    "last_triggered": null,
+    "effectiveness_score": 0.0
+  },
+  "d5c7744d-33aa-4f1a-bfbf-78aa1e79325a": {
+    "rule_id": "d5c7744d-33aa-4f1a-bfbf-78aa1e79325a",
+    "times_triggered": 0,
+    "false_positives": 0,
+    "true_positives": 0,
+    "last_triggered": null,
+    "effectiveness_score": 0.0
+  },
+  "58936404-6a41-4c10-9c95-46648c5ba784": {
+    "rule_id": "58936404-6a41-4c10-9c95-46648c5ba784",
+    "times_triggered": 0,
+    "false_positives": 0,
+    "true_positives": 0,
+    "last_triggered": null,
+    "effectiveness_score": 0.0
+  },
+  "71fe00c5-cb74-44bc-8294-fc6fe3f45ec6": {
+    "rule_id": "71fe00c5-cb74-44bc-8294-fc6fe3f45ec6",
+    "times_triggered": 0,
+    "false_positives": 0,
+    "true_positives": 0,
+    "last_triggered": null,
+    "effectiveness_score": 0.0
+  },
+  "4637a261-7434-4f02-92cd-9e4af94bbf15": {
+    "rule_id": "4637a261-7434-4f02-92cd-9e4af94bbf15",
+    "times_triggered": 0,
+    "false_positives": 0,
+    "true_positives": 0,
+    "last_triggered": null,
+    "effectiveness_score": 0.0
+  },
+  "6ed20dc3-16d4-43aa-9249-40a3b66470fd": {
+    "rule_id": "6ed20dc3-16d4-43aa-9249-40a3b66470fd",
+    "times_triggered": 0,
+    "false_positives": 0,
+    "true_positives": 0,
+    "last_triggered": null,
+    "effectiveness_score": 0.0
   }
 }

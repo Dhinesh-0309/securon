@@ -1,19 +1,11 @@
 import React from 'react';
 import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Button,
-  Box,
-  Container,
-} from '@mui/material';
-import {
   Shield,
-  Zap,
-  Lock,
+  Activity,
   BarChart3,
   FileSearch,
   Settings,
+  Menu,
 } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
@@ -22,233 +14,208 @@ const Navbar: React.FC = () => {
   const location = useLocation();
 
   const navItems = [
-    { label: 'DASHBOARD', path: '/dashboard', icon: <BarChart3 size={18} /> },
-    { label: 'LOG ANALYSIS', path: '/logs', icon: <FileSearch size={18} /> },
-    { label: 'CODE SCANNER', path: '/scanner', icon: <Shield size={18} /> },
-    { label: 'RULE ENGINE', path: '/rules', icon: <Settings size={18} /> },
+    { label: 'Dashboard', path: '/dashboard', icon: <BarChart3 size={18} /> },
+    { label: 'Log Analysis', path: '/logs', icon: <FileSearch size={18} /> },
+    { label: 'Code Scanner', path: '/scanner', icon: <Shield size={18} /> },
+    { label: 'Rule Engine', path: '/rules', icon: <Settings size={18} /> },
   ];
 
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <AppBar 
-      position="sticky" 
-      elevation={0}
-      sx={{ 
-        backgroundColor: 'rgba(15, 17, 21, 0.8)',
+    <nav 
+      style={{ 
+        position: 'sticky',
+        top: 0,
+        zIndex: 50,
+        backgroundColor: 'rgba(255, 255, 255, 0.95)',
         backdropFilter: 'blur(16px)',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+        borderBottom: '1px solid var(--border)',
+        boxShadow: 'var(--shadow-sm)'
       }}
     >
-      <Container maxWidth="xl">
-        <Toolbar sx={{ py: 2 }}>
+      <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 1.5rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '4rem' }}>
           {/* Logo Section */}
-          <Box 
-            sx={{ 
+          <div 
+            style={{ 
               display: 'flex', 
               alignItems: 'center', 
-              gap: 2,
+              gap: '0.75rem', 
               cursor: 'pointer',
+              transition: 'opacity 0.2s'
             }}
             onClick={() => navigate('/dashboard')}
+            onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
+            onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
           >
-            {/* Glowing Logo Icon */}
-            <Box
-              sx={{
-                width: 48,
-                height: 48,
-                background: 'linear-gradient(135deg, #EA580C, #F7931A)',
-                borderRadius: '12px',
+            {/* Logo Icon */}
+            <div
+              style={{
+                width: '2.5rem',
+                height: '2.5rem',
+                borderRadius: '0.5rem',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                boxShadow: '0 0 20px -5px rgba(247, 147, 26, 0.6)',
-                position: 'relative',
-                '&::before': {
-                  content: '""',
-                  position: 'absolute',
-                  inset: 0,
-                  borderRadius: '12px',
-                  padding: '2px',
-                  background: 'linear-gradient(135deg, #F7931A, #FFD600)',
-                  mask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
-                  maskComposite: 'xor',
-                },
+                backgroundColor: 'var(--accent)',
+                boxShadow: 'var(--shadow-accent)',
               }}
             >
-              <Lock size={24} color="#FFFFFF" />
-            </Box>
+              <Shield size={20} color="white" />
+            </div>
             
             {/* Brand Text */}
-            <Box>
-              <Typography 
-                variant="h5" 
-                sx={{ 
-                  fontFamily: '"Space Grotesk", sans-serif',
-                  fontWeight: 700,
-                  color: '#FFFFFF',
-                  lineHeight: 1,
-                }}
-              >
-                SECURON
-              </Typography>
-              <Typography 
-                variant="caption" 
-                sx={{ 
-                  fontFamily: '"JetBrains Mono", monospace',
-                  color: '#F7931A',
-                  letterSpacing: '0.2em',
-                  fontSize: '0.7rem',
-                }}
-              >
-                DEFI SECURITY
-              </Typography>
-            </Box>
-          </Box>
+            <div>
+              <h1 style={{ 
+                fontFamily: 'var(--font-display)', 
+                fontSize: '1.25rem', 
+                fontWeight: 600, 
+                color: 'var(--foreground)', 
+                lineHeight: 1,
+                margin: 0
+              }}>
+                Securon
+              </h1>
+              <p style={{ 
+                fontFamily: 'var(--font-mono)', 
+                fontSize: '0.625rem', 
+                fontWeight: 500,
+                textTransform: 'uppercase',
+                letterSpacing: '0.1em',
+                color: 'var(--accent)', 
+                margin: 0,
+                marginTop: '0.125rem'
+              }}>
+                Security Platform
+              </p>
+            </div>
+          </div>
 
-          {/* Spacer */}
-          <Box sx={{ flexGrow: 1 }} />
-
-          {/* Navigation Items */}
-          <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 1 }}>
+          {/* Navigation Items - Desktop */}
+          <div className="nav-desktop">
             {navItems.map((item) => (
-              <Button
+              <button
                 key={item.path}
                 onClick={() => navigate(item.path)}
-                startIcon={item.icon}
-                sx={{
-                  color: isActive(item.path) ? '#F7931A' : '#94A3B8',
-                  fontFamily: '"JetBrains Mono", monospace',
-                  fontSize: '0.75rem',
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  padding: '0.5rem 0.75rem',
+                  borderRadius: '0.375rem',
+                  fontSize: '0.875rem',
                   fontWeight: 500,
-                  letterSpacing: '0.1em',
-                  px: 3,
-                  py: 1.5,
-                  borderRadius: '8px',
-                  textTransform: 'uppercase',
-                  position: 'relative',
-                  transition: 'all 0.3s ease',
-                  '&:hover': {
-                    color: '#F7931A',
-                    backgroundColor: 'rgba(247, 147, 26, 0.1)',
-                    transform: 'translateY(-2px)',
-                  },
-                  ...(isActive(item.path) && {
-                    backgroundColor: 'rgba(247, 147, 26, 0.2)',
-                    border: '1px solid rgba(247, 147, 26, 0.5)',
-                    boxShadow: '0 0 15px -5px rgba(247, 147, 26, 0.4)',
-                    '&::after': {
-                      content: '""',
-                      position: 'absolute',
-                      bottom: -2,
-                      left: '50%',
-                      transform: 'translateX(-50%)',
-                      width: 4,
-                      height: 4,
-                      backgroundColor: '#F7931A',
-                      borderRadius: '50%',
-                      boxShadow: '0 0 8px rgba(247, 147, 26, 0.8)',
-                    },
-                  }),
+                  transition: 'all 0.2s',
+                  border: 'none',
+                  cursor: 'pointer',
+                  backgroundColor: isActive(item.path) ? 'var(--accent)' : 'transparent',
+                  color: isActive(item.path) ? 'white' : 'var(--muted-foreground)',
+                  boxShadow: isActive(item.path) ? 'var(--shadow-sm)' : 'none'
+                }}
+                onMouseEnter={(e) => {
+                  if (!isActive(item.path)) {
+                    e.currentTarget.style.backgroundColor = 'var(--muted)';
+                    e.currentTarget.style.color = 'var(--foreground)';
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (!isActive(item.path)) {
+                    e.currentTarget.style.backgroundColor = 'transparent';
+                    e.currentTarget.style.color = 'var(--muted-foreground)';
+                  }
                 }}
               >
+                {item.icon}
                 {item.label}
-              </Button>
+              </button>
             ))}
-          </Box>
+          </div>
 
-          {/* Status Indicator */}
-          <Box sx={{ ml: 4, display: { xs: 'none', lg: 'flex' }, alignItems: 'center', gap: 2 }}>
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 1,
-                px: 2,
-                py: 1,
-                backgroundColor: 'rgba(16, 185, 129, 0.2)',
-                border: '1px solid rgba(16, 185, 129, 0.5)',
-                borderRadius: '20px',
-              }}
-            >
-              <Box
-                sx={{
-                  width: 8,
-                  height: 8,
-                  backgroundColor: '#10B981',
+          {/* Status Indicators - Desktop */}
+          <div className="status-desktop">
+            {/* System Status */}
+            <div style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '0.5rem', 
+              padding: '0.375rem 0.75rem', 
+              borderRadius: '9999px', 
+              backgroundColor: '#f0fdf4', 
+              border: '1px solid #bbf7d0' 
+            }}>
+              <div 
+                style={{
+                  width: '0.5rem',
+                  height: '0.5rem',
                   borderRadius: '50%',
-                  animation: 'pulse 2s infinite',
-                  '@keyframes pulse': {
-                    '0%, 100%': { opacity: 1 },
-                    '50%': { opacity: 0.5 },
-                  },
+                  backgroundColor: '#10b981',
+                  animation: 'pulse 2s infinite'
                 }}
               />
-              <Typography
-                variant="caption"
-                sx={{
-                  fontFamily: '"JetBrains Mono", monospace',
-                  color: '#10B981',
-                  fontSize: '0.7rem',
-                  letterSpacing: '0.05em',
-                }}
-              >
-                SYSTEM ONLINE
-              </Typography>
-            </Box>
+              <span style={{ 
+                fontFamily: 'var(--font-mono)', 
+                fontSize: '0.625rem', 
+                fontWeight: 500,
+                textTransform: 'uppercase',
+                letterSpacing: '0.1em',
+                color: '#15803d' 
+              }}>
+                Online
+              </span>
+            </div>
 
-            {/* Network Activity Indicator */}
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 0.5,
-                px: 2,
-                py: 1,
-                backgroundColor: 'rgba(247, 147, 26, 0.2)',
-                border: '1px solid rgba(247, 147, 26, 0.5)',
-                borderRadius: '20px',
-              }}
-            >
-              <Zap size={12} color="#F7931A" />
-              <Typography
-                variant="caption"
-                sx={{
-                  fontFamily: '"JetBrains Mono", monospace',
-                  color: '#F7931A',
-                  fontSize: '0.7rem',
-                  letterSpacing: '0.05em',
-                }}
-              >
-                SCANNING
-              </Typography>
-            </Box>
-          </Box>
+            {/* Activity Indicator */}
+            <div style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '0.5rem', 
+              padding: '0.375rem 0.75rem', 
+              borderRadius: '9999px', 
+              backgroundColor: 'rgba(184, 134, 11, 0.1)', 
+              border: '1px solid var(--accent)' 
+            }}>
+              <Activity size={12} style={{ color: 'var(--accent)' }} />
+              <span style={{ 
+                fontFamily: 'var(--font-mono)', 
+                fontSize: '0.625rem', 
+                fontWeight: 500,
+                textTransform: 'uppercase',
+                letterSpacing: '0.1em',
+                color: 'var(--accent)' 
+              }}>
+                Active
+              </span>
+            </div>
+          </div>
 
           {/* Mobile Menu Button */}
-          <Box sx={{ display: { xs: 'flex', md: 'none' }, ml: 2 }}>
-            <Button
-              variant="outlined"
-              size="small"
-              sx={{
-                minWidth: 'auto',
-                width: 40,
-                height: 40,
-                borderRadius: '8px',
-                border: '1px solid rgba(255, 255, 255, 0.2)',
-                color: '#FFFFFF',
-                '&:hover': {
-                  border: '1px solid #F7931A',
-                  backgroundColor: 'rgba(247, 147, 26, 0.1)',
-                },
+          <div className="nav-mobile">
+            <button
+              style={{
+                padding: '0.5rem',
+                borderRadius: '0.375rem',
+                border: 'none',
+                backgroundColor: 'transparent',
+                color: 'var(--muted-foreground)',
+                cursor: 'pointer',
+                transition: 'all 0.2s'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = 'var(--muted)';
+                e.currentTarget.style.color = 'var(--foreground)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = 'transparent';
+                e.currentTarget.style.color = 'var(--muted-foreground)';
               }}
             >
-              <Settings size={18} />
-            </Button>
-          </Box>
-        </Toolbar>
-      </Container>
-    </AppBar>
+              <Menu size={18} />
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
   );
 };
 
